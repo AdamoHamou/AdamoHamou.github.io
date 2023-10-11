@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Hamou</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/3c0d6d6761.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Assets/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Back-end Software engineer in training</p>
+                <h1>Hi, I'm Adam!<br>First Generation from <br>Damascus Syria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Assets/IMG_1523.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p style="font-size:18px;">Hello! My Name is Adam I was born in Richmond Virgina! I was raised in Syria until I was
+                        10, and I have lived in Las Vegas since then. I love problem solving and testing out my skils on difficult 
+                        assignments that includes math, science and recently computer science. Intially I was a physics major who wanted
+                        to go into reasarch, however; I found a new passion afte    r my first computer science course. It was love at first
+                        sight and I feel in love with the idea of designing my own applicaitons to complete tasks that I wouldn't want to
+                        brute force. I started to incoropate my knowledge of CS into my physics courses my automating my homework assignments
+                        and became essentially detached from physics and more concerned with improving my computer langauge skills. recently I
+                        switched over to a full CS degree and haven't regretted it since. Currently I'm looking for internship to get hands on
+                        expirence in the field and to better my computer skills by consulting veterans in the software development field.
+                        <br>I have a ton of hobbies that I'd like to share with anyone reading this website. I love playing basketball and 
+                        video games, one of my favorite games of all times is league of legends! I've been playing ever since season 6 and 
+                        mainly play the top lane role. If were to describe the game to anyone, I would describe it similar to chess, you have to
+                        move the piece in specifiec or order to accomplish 1 goal. However; instead of 16 pieces, you would play 5 piece a team, 
+                        it's a very team oriented game and very fun to play with friends!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expirence')">Expirence</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing website interfaces</li>
+                            <li><span>Knowledge of popular frameworks</span><br>Flask, Django, GPT<br></li>
+                            <li><span>Problem solving</span><br>Leetcode, Data Structures & Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="expirence">
+                        <ul>
+                            <li><span>Content Organize</span><br>Javascript, CSS, HTML, Python, mySQL, Flask</li>
+                            <li><span>Website Design</span><br>Javascript, CSS, HTML</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.A. Computer Science</span><br>UNLV</li>
+                            <li><span>Minor in Physics</span><br>UNLV</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------projects------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class = "sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Assets/img2.png" alt="">
+                    <div class="layer">
+                        <h3>Learn more</h3>
+                        <p>This is one of the projects That I had worked on for a week, It didn't take long since
+                            A lot of css and HTML isn't very difficult. I used many resources online and can confidently
+                            say I can replicate many websites without problem. To download the source code, refer to
+                            the link. 
+                        </p>
+                        <a href="https://github.com/AdamoHamou/AdamoHamou.github.io"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assets/Aipic.webp" alt="">
+                    <div class="layer">
+                        <h3>Content Organizer</h3>
+                        <p>This is one of the more recent Proejct That I have taken on, it's a content organizer that mainly focuses
+                            on back-end development using Flask API. Additionally, it will store a data from users using mySQL. Finally 
+                            I'm also trying to incoropate GPT API to showcase the power of AI, and how we can incoropate it into our
+                            daily life. Currently It's under development but will be complete before the end of the month.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------Contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>Adam.hamou1975@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+1 (702) 785-3296</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/adamohamou/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/adam-hamou/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/AdamoHamou?tab=repositories"></i><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Assets/AdamHamouResume.pdf" download class="btn">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Adam</p>
+        </div>
+    </div>
+</body>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwar2iwjd2YfO2MUTvOaEX38Utec3pzOclj90rr0n8CQ7gNbd9doq9cS9gRITDXcqEX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){msg.innerHTML = ""},5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</html>
